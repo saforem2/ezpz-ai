@@ -8,7 +8,7 @@ version = '0.9.0'
 description = 'Distributed training, 🍋 `ezpz`.'
 readme = { file = "README", content-type = "text/x-rst" }
 dependencies = [
-    "git+https://github.com/saforem2/ezpz.git",
+    "ezpz @ git+https://github.com/saforem2/ezpz",
 ]
 
 [project.urls]
