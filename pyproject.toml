@@ -5,11 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = 'ezpz-ai'
 version = '0.9.0'
-description = 'Distributed training, :lemon: `ezpz`.'
+description = 'Distributed training, 🍋 `ezpz`.'
 readme = { file = "README", content-type = "text/x-rst" }
 dependencies = [
-    "ezpz",
+    "git+https://github.com/saforem2/ezpz.git",
 ]
 
-[tool.uv.sources]
-ezpz = { git = "https://github.com/saforem2/ezpz" }
+[project.urls]
+Documentation = "https://saforem2.github.io/ezpz"
+Issues = "https://github.com/saforem2/ezpz-ai/issues"
+Source = "https://github.com/saforem2/ezpz-ai"
