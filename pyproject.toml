@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=69"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = 'ezpz-ai'
@@ -15,3 +15,6 @@ dependencies = [
 Documentation = "https://saforem2.github.io/ezpz"
 Issues = "https://github.com/saforem2/ezpz-ai/issues"
 Source = "https://github.com/saforem2/ezpz-ai"
+
+[tool.hatch.metadata]
+allow-direct-references = true
